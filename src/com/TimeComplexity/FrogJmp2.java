@@ -7,7 +7,10 @@ public int solution(int X, int Y, int D){
     	int count = 0;
     	if(X < Y){
 	    	
-	    	count = ((Y - X) / D) + 1;
+    		count = ((Y - X) / D);
+    		if((Y - X) % D != 0){
+    			count += 1;
+    		}
 	    	
     	}
     	
@@ -17,7 +20,7 @@ public int solution(int X, int Y, int D){
 	public static void main(String[] args) {
         
 	 
-		System.out.println(new FrogJmp2().solution(10, 85, 30));
+		System.out.println(new FrogJmp2().solution(10, 80, 30));
 	}
 
 }
