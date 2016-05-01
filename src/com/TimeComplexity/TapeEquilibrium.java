@@ -7,7 +7,7 @@ public class TapeEquilibrium {
 	public int solution(int[] A){
 	
 	  if(A.length == 0){
-		 return 0;
+		return 0;
       }
 	  
 	  int P = 1, min = 0, sub = 0, sum1 = 0, sum2 = 0, i = 0, j = P;
