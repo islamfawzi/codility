@@ -2,7 +2,7 @@ package com.TimeComplexity;
 
 public class FrogJmp2 {
 
-public int solution(int X, int Y, int D){
+    public int solution(int X, int Y, int D){
   		
     	int count = 0;
     	if(X < Y){
