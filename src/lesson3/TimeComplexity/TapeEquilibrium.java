@@ -1,4 +1,4 @@
-package com.TimeComplexity;
+package lesson3.TimeComplexity;
 
 // minimal diffrence between 2 arrays sums
 

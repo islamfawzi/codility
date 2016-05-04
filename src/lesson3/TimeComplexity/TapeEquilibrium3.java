@@ -1,4 +1,4 @@
-package com.TimeComplexity;
+package lesson3.TimeComplexity;
 
 import java.util.Arrays;
 
